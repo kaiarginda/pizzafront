@@ -46,7 +46,7 @@ root.render(
     {/* <App /> */}
     <Routes>
       <Route
-        path="/r3"
+        path="/"
         element={[
           <Navbar />,
           <Hero />,
