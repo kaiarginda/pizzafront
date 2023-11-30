@@ -33,7 +33,7 @@ const Return = () => {
       <p className="mb-4">
         If you have any questions or concerns regarding our return policy,
         please{" "}
-        <Link to="/r3/contact" className="text-blue-500 underline">
+        <Link to="/contact" className="text-blue-500 underline">
           contact us
         </Link>
         .

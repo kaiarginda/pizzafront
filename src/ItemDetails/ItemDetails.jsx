@@ -6,7 +6,7 @@ const ItemDetails = () => {
   return (
     <div>
       <h1>HELLO WORLD</h1>
-      <Link to="/r3/recipe">go back</Link>
+      <Link to="/recipe">go back</Link>
     </div>
   );
 };

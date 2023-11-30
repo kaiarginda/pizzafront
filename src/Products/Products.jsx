@@ -94,7 +94,7 @@ const Products = () => {
           </div>
           <div className="products-btn">
             <button type="button">
-              <a href="/r3/products">ALL PRODUCTS</a>
+              <a href="/products">ALL PRODUCTS</a>
             </button>
           </div>
         </div>

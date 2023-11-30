@@ -122,7 +122,7 @@ const Hero = () => {
           </div>
           <div className="hero-bot-button-box">
             <button type="button">
-              <a href="/r3/products">MENUS</a>
+              <a href="/products">MENUS</a>
             </button>
           </div>
         </div>

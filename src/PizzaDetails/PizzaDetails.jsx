@@ -6,15 +6,6 @@ const PizzaDetails = () => {
   const [pizzaData, setPizzaData] = useState(null);
 
   useEffect(() => {
-    // Fetch pizza data by pizzaId from your backend API
-    // Example: fetch(`/api/pizzas/${pizzaId}`)
-
-    // async function fetchData() {
-    //   await fetch("http://localhost:5000/v1/get-pizzas");
-    //   //   .then(response => response.json())
-    //   //   .then(data => setPizzaData(data));
-    // }
-    // fetchData();
     const dummyPizzaData = {
       picture:
         "https://divifoodstore.divifixer.com/wp-content/uploads/2021/06/divi-food-store-p4-300x300.png",

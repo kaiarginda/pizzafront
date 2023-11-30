@@ -17,16 +17,16 @@ const Footer = () => {
           <div className="footer-mid">
             <ul>
               <li>
-                <a href="/r3/products">MENU</a>
+                <a href="/products">MENU</a>
               </li>
               {/* <li>My account</li> */}
               {/* <li>Checkout</li> */}
               {/* <li>Cart</li> */}
               <li>
-                <a href="/r3/return-policy">Return Policy</a>
+                <a href="/return-policy">Return Policy</a>
               </li>
               <li>
-                <a href="/r3/terms-of-use">Terms Of Use</a>
+                <a href="/terms-of-use">Terms Of Use</a>
               </li>
             </ul>
           </div>

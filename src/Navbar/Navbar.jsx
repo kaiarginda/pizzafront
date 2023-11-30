@@ -70,21 +70,21 @@ const Navbar = () => {
                 <a href="#">HOME</a>
               </li> */}
               <li className="navbar-li-link ">
-                <a href="/r3/products">PRODUCTS</a>
+                <a href="/products">PRODUCTS</a>
               </li>
-              <li to="/r3" className="navbar-li-link">
+              <li to="/" className="navbar-li-link">
                 <a href="#menu">MENU</a>
               </li>
               {/* <li to="/r3" className="navbar-li-link">
                 <a href="/"></a>
               </li> */}
-              <li to="/r3" className="navbar-li-link">
-                <a href="/r3/website-map">DESCRIPTION</a>
+              <li to="/" className="navbar-li-link">
+                <a href="/website-map">DESCRIPTION</a>
               </li>
-              <li to="/r3" className="navbar-li-link">
-                <a href="/r3/post">OUR BLOG</a>
+              <li to="/" className="navbar-li-link">
+                <a href="/post">OUR BLOG</a>
               </li>
-              <li to="/r3" className="navbar-li-link">
+              <li to="/" className="navbar-li-link">
                 <a href="#contact">CONTACT</a>
               </li>
 
@@ -100,17 +100,14 @@ const Navbar = () => {
               ) : null} */}
 
               {loggedUser.name ? (
-                <li to="/r3" className="navbar-li-link relative">
+                <li to="/" className="navbar-li-link relative">
                   <div className="flex items-center justify-center">
                     <img
                       className="h-10 w-10 rounded-full"
                       src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIIAggMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYCAwQBB//EADIQAAICAQEFBgQFBQAAAAAAAAABAgMEEQUhMVFxEhMUIkFhBjJSoSOxwdHwQmKBkeH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A+4gAAAAAAAAGMpwjulKK6sDIGCtrb0U4t9TMAAAAAAAAAAAAAAAHPm5lWFS7bX0iuMnyA222wqg52TjGK4tshMz4him44lfa/vmt3+ERGdnXZtnatlpFfLBcEcwHTftDMvb7zIno/SL0X2OZ7+O/qAB4lob6crIof4N1kOkt3+jSAJnE+ILq9I5MFZH6o7pfsT2Jl05cO3RNSXquDXVFIM6brKLFZTNwmuDQF7BG7J2pDNj2JrsXxW+P1e6JIAAAAAAAADC2yNVcrLHpGK1bKbtDMnm5DslqocIR5Il/ibL0jDFi/m88+nov5yK+AAAAG/ExLcuzsVJaL5pPgiap2JjQj+K5WS9XrogK8CyWbGw5LdGcHzjL9yJz9mW4i7afeVfUlvXUDhAAGVVk6rI2VycZxeqaLjszMjm4ysS0kt048mUwkdhZbxs6MW/w7fK+vo/5zAtoAAAAAAY2PswlLktQKZtO7v8APvs11Tloui3HMNdd/MAD2KcpKMVq3uSPDfs/Tx+P2uHeICz4eNHFx41R01XzPm/Vm4AAeSipRcZLVNaNcz087ScuyBVNoY/hcudS+Vb49Gc5K/EWniq+fd/qyKADhwej5gAXjCu8RiVW/XBN9TcR3w/Jy2XUn/S5L7kiAAAAwtWtU0vWLMwwKAtx6bsyruMu6r6Ztf49DSAPYScJxnF6OL1TPABbMa3xFMbYPdJc+D5G3STKxgZ9mFJuPmrb80H+fUnadq4lsVrZ3cn/AEzWn3A62mzFxenHT31NNm0cOCbd8H7R3v7EPtHa0smLqoThW+LfGQHNtLI8TlzmnrFeWPRHKj0AADwC2fDqa2XDX1lJ/ckzl2ZV3OBRW+Kgter3nUAAAAAAVr4lxe7yIZMV5bF2ZdV/z8iGLvm40MvGnTPhJbnyfoyl30zotlVbHScXo0BgduBsy3M88vw6vqfr0Mtk4Hi7HOxPuYPf/c+RZUkklFJJbkl6AclGzcSmOiqjPVb5T8zZpt2Lizbce3X7Rf7kiAIuGw8ZPWU7ZLlql+h1+AxO67vw8Oz03/74nSAIHP2NKtOzFbnH1g+K6cyJLoQ+2tnpxllUrSS32R5+4EGdWzMbxebXW1rHXWXRHIWzYeA8TH7di0us3tfSvRASYAAAAAAABG7X2ZHOr7dekb4ryt+vsySAHBi46xceulL5VvfN+ptOiUVLiaZVyj7oDEAAAAAHEyjCUuCNsK1H3YETg7FhVlzvt0cIy1qhy92TIAAAAAAAAAAAAAAB44p8UjHuo8jMAYd1E9UIrgkZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//Z"
                       alt=""
                     />
-                    <a
-                      href={`/r3/user/${loggedUser.name}`}
-                      className="uppercase"
-                    >
+                    <a href={`/user/${loggedUser.name}`} className="uppercase">
                       {loggedUser.name}
                     </a>
                   </div>
@@ -126,7 +123,7 @@ const Navbar = () => {
                 <li className="navbar-li-link relative">
                   <div className="flex items-center justify-center">
                     <a
-                      href="/r3/log-in"
+                      href="/log-in"
                       className="bg-green-300 hover:bg-green-400 text-white uppercase px-4 py-2 rounded-full transition-all duration-300"
                     >
                       Login
@@ -162,7 +159,7 @@ const Navbar = () => {
       <div className="hamburger-navbar">
         <ul>
           <li>
-            <a href="/r3" className="hn-a">
+            <a href="/" className="hn-a">
               Home
             </a>
           </li>

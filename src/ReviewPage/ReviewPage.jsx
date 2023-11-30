@@ -99,7 +99,6 @@ const ReviewPage = () => {
     setReviewText("");
     setRating(0);
   };
-  console.log(loggedUser, "currenlty logged user");
   return (
     <div className="container mx-auto p-8">
       <h2 className="text-2xl font-bold mb-4">Write a Review</h2>
@@ -175,7 +174,7 @@ const ReviewPage = () => {
         ) : null}
       </div>
       <div className="p-5">
-        <a href="/r3">Go Back To The Home Page</a>
+        <a href="/">Go Back To The Home Page</a>
       </div>
     </div>
   );

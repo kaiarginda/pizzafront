@@ -58,7 +58,7 @@ const LoginPage = () => {
     setSuccess(true);
     setLoading(false);
 
-    window.location.href = "/r3";
+    window.location.href = "/";
   };
 
   useEffect(() => {
@@ -138,7 +138,7 @@ const LoginPage = () => {
 
         <div className="p-3">
           <Link
-            to="/r3/create-user"
+            to="/create-user"
             className="text-blue-500 hover:text-blue-700 transition duration-300"
           >
             Don't Have an account? Create One.

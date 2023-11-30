@@ -3,8 +3,6 @@ import "./recipe.css";
 import { useEffect } from "react";
 import { useRef, useState } from "react";
 import { Link, Routes, Route } from "react-router-dom";
-
-import ItemDetails from "../ItemDetails/ItemDetails";
 const Recipe = () => {
   let [arr, setArr] = useState([]);
   const [modal, setModal] = useState(false);
@@ -59,7 +57,7 @@ const Recipe = () => {
                   <p>Sugar: {i.nutrients.sugar}g</p>
                   <hr />
                   <div className="recipe-btn-box">
-                    <Link to={`/r3/recipe/${i.id}`}>Details</Link>
+                    <Link to={`/recipe/${i.id}`}>Details</Link>
                   </div>
                 </li>
               );

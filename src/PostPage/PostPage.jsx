@@ -5,7 +5,7 @@ import CommentList from "../CommentList";
 import Cookies from "js-cookie";
 const PostPage = () => {
   const url = window.location.href;
-  const id = url.split("/")[5];
+  const id = url.split("/")[4];
   const [post, setPost] = useState([]);
   const [cookie, setCookie] = useState("");
 

@@ -17,7 +17,6 @@ const ProductsList = () => {
         }
 
         const data = await response.json();
-        console.log("Data:", data);
         setProductData(data);
       } catch (error) {
         console.error("Error during fetch:", error);
@@ -52,9 +51,9 @@ const ProductsList = () => {
         </button>
       )}
       <div className="p-5 flex gap-4 justify-center items-center">
-        <a href="/r3">Go Back To The Dashboard</a>
+        <a href="/">Go Back To The Dashboard</a>
         <a
-          href="/r3/create"
+          href="/create"
           className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full inline-block transition-all duration-300"
         >
           Create Your Own

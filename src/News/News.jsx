@@ -16,7 +16,7 @@ const News = () => {
             </div>
             <div className="news-right">
               <button type="button">
-                <a href="/r3/post">SEE ALL</a>
+                <a href="/post">SEE ALL</a>
               </button>
             </div>
           </div>
@@ -43,7 +43,7 @@ const News = () => {
                   eturpis varius per a augue magna hac....
                 </p>
                 <button>
-                  <a href="r3/post/655a17fab3bc46c57700a483">READ MORE</a>
+                  <a href="/post/655a17fab3bc46c57700a483">READ MORE</a>
                 </button>{" "}
               </div>
             </div>
@@ -68,7 +68,7 @@ const News = () => {
                   eturpis varius per a augue magna hac....
                 </p>
                 <button>
-                  <a href="r3/post/655a1830b3bc46c57700a487">READ MORE</a>
+                  <a href="/post/655a1830b3bc46c57700a487">READ MORE</a>
                 </button>{" "}
               </div>
             </div>
@@ -96,7 +96,7 @@ const News = () => {
                 </p>
 
                 <button>
-                  <a href="r3/post/655a186cb3bc46c57700a48c">READ MORE</a>
+                  <a href="/post/655a186cb3bc46c57700a48c">READ MORE</a>
                 </button>
               </div>
             </div>

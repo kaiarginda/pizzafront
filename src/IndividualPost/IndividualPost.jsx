@@ -53,7 +53,7 @@ const IndividualPost = ({ name, description, image, id }) => {
             type="button"
             className="bg-blue-500 text-white py-2 px-4 rounded"
           >
-            <a href={`/r3/post/${id}`}>READ MORE</a>
+            <a href={`/post/${id}`}>READ MORE</a>
           </button>
         </div>
       </div>

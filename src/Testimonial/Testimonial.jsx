@@ -82,12 +82,12 @@ const Testimonial = () => {
       <div className="mt-10 flex gap-4 justify-center">
         <button>
           {" "}
-          <a href="/r3/testimonial">See All Reviews</a>
+          <a href="/testimonial">See All Reviews</a>
         </button>
 
         <button>
           {" "}
-          <a href="/r3/review">Write Your Review</a>
+          <a href="/review">Write Your Review</a>
         </button>
       </div>
     </div>

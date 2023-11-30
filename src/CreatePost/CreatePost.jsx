@@ -82,7 +82,7 @@ const CreatePost = () => {
       <div className="bg-red-500 text-white p-4 rounded">
         <div> Log in to Create New Post</div>
         <div>
-          <Link to={"/r3/log-in"} className="text-2xl text-blue-500">
+          <Link to={"/log-in"} className="text-2xl text-blue-500">
             Log-In and try again
           </Link>
         </div>
