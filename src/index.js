@@ -66,24 +66,69 @@ root.render(
       {/* <Route path={`/register`} element={[<Register />]}></Route> */}
       {/* <Route path={`/login`} element={[<LoginForm />]}></Route> */}
       {/* <Route path={`/create-pizza`} element={[<CreatePizzaForm />]}></Route> */}
-      <Route path="/create" element={[<CreatePizzaForm />]} />
-      <Route path="/create-user" element={[<CreateUser />]} />
-      <Route path="/log-in" element={[<LoginPage />]} />
-      <Route path="/create-post" element={[<CreatePost />]} />
-      <Route path="/review" element={[<ReviewPage />]} />
+      <Route
+        path="https://pizza-adw3.onrender.com/create"
+        element={[<CreatePizzaForm />]}
+      />
+      <Route
+        path="https://pizza-adw3.onrender.com/create-user"
+        element={[<CreateUser />]}
+      />
+      <Route
+        path="https://pizza-adw3.onrender.com/log-in"
+        element={[<LoginPage />]}
+      />
+      <Route
+        path="https://pizza-adw3.onrender.com/create-post"
+        element={[<CreatePost />]}
+      />
+      <Route
+        path="https://pizza-adw3.onrender.com/review"
+        element={[<ReviewPage />]}
+      />
 
-      <Route path="/pizza/:pizzaId" element={[<PizzaDetails />]} />
-      <Route path="/user/:name" element={[<IndividualUser />]} />
-      <Route path="/post/:id" element={[<PostPage />]} />
+      <Route
+        path="https://pizza-adw3.onrender.com/pizza/:pizzaId"
+        element={[<PizzaDetails />]}
+      />
+      <Route
+        path="https://pizza-adw3.onrender.com/user/:name"
+        element={[<IndividualUser />]}
+      />
+      <Route
+        path="https://pizza-adw3.onrender.com/post/:id"
+        element={[<PostPage />]}
+      />
 
-      <Route path="/products" element={[<ProductsList />]} />
-      <Route path="/testimonial" element={[<ReviewList />]} />
-      <Route path="/post" element={[<PostList />]} />
-      <Route path="/return-policy" element={[<Return />]} />
-      <Route path="/terms-of-use" element={[<Terms />]} />
-      <Route path="/contact" element={[<Contact />]} />
+      <Route
+        path="https://pizza-adw3.onrender.com/products"
+        element={[<ProductsList />]}
+      />
+      <Route
+        path="https://pizza-adw3.onrender.com/testimonial"
+        element={[<ReviewList />]}
+      />
+      <Route
+        path="https://pizza-adw3.onrender.com/post"
+        element={[<PostList />]}
+      />
+      <Route
+        path="https://pizza-adw3.onrender.com/return-policy"
+        element={[<Return />]}
+      />
+      <Route
+        path="https://pizza-adw3.onrender.com/terms-of-use"
+        element={[<Terms />]}
+      />
+      <Route
+        path="https://pizza-adw3.onrender.com/contact"
+        element={[<Contact />]}
+      />
 
-      <Route path="/website-map" element={[<Map />]} />
+      <Route
+        path="https://pizza-adw3.onrender.com/website-map"
+        element={[<Map />]}
+      />
     </Routes>
   </Router>
 );
