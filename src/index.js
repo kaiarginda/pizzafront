@@ -173,7 +173,7 @@ import Map from "./Map/Map";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <Router>
+  <Router basename="/">
     <Routes>
       <Route
         path="/"
